@@ -1,0 +1,116 @@
+<div [hidden]="!isDelayedRunning" class="plus-spinner-container" [ngClass]="spinnerContainerClass">
+    <!--double-bounce-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[0]"
+         [ngClass]="selectedSpinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+    </div>
+
+    <!--plane-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[1]"
+         [ngClass]="selectedSpinner"></div>
+
+    <!--stretch-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[2]"
+         [ngClass]="selectedSpinner">
+        <div class="rect1"></div>
+        <div class="rect2"></div>
+        <div class="rect3"></div>
+        <div class="rect4"></div>
+        <div class="rect5"></div>
+    </div>
+
+    <!--cube-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[3]"
+         [ngClass]="selectedSpinner">
+        <div class="cube1"></div>
+        <div class="cube2"></div>
+    </div>
+
+    <!--scaleout-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[4]"
+         [ngClass]="selectedSpinner"></div>
+
+    <!--dot-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[5]"
+         [ngClass]="selectedSpinner">
+        <div class="dot1"></div>
+        <div class="dot2"></div>
+    </div>
+
+    <!--bouncedelay-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[6]"
+         [ngClass]="selectedSpinner">
+        <div class="bounce1"></div>
+        <div class="bounce2"></div>
+        <div class="bounce3"></div>
+    </div>
+
+    <!--plus-circle-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[7]"
+         [ngClass]="selectedSpinner">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+    </div>
+
+    <!--cube-grid-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[8]"
+         [ngClass]="selectedSpinner">
+        <div class="sk-cube sk-cube1"></div>
+        <div class="sk-cube sk-cube2"></div>
+        <div class="sk-cube sk-cube3"></div>
+        <div class="sk-cube sk-cube4"></div>
+        <div class="sk-cube sk-cube5"></div>
+        <div class="sk-cube sk-cube6"></div>
+        <div class="sk-cube sk-cube7"></div>
+        <div class="sk-cube sk-cube8"></div>
+        <div class="sk-cube sk-cube9"></div>
+    </div>
+
+    <!--fading-circle-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[9]"
+         [ngClass]="selectedSpinner">
+        <div class="sk-circle1 sk-circle"></div>
+        <div class="sk-circle2 sk-circle"></div>
+        <div class="sk-circle3 sk-circle"></div>
+        <div class="sk-circle4 sk-circle"></div>
+        <div class="sk-circle5 sk-circle"></div>
+        <div class="sk-circle6 sk-circle"></div>
+        <div class="sk-circle7 sk-circle"></div>
+        <div class="sk-circle8 sk-circle"></div>
+        <div class="sk-circle9 sk-circle"></div>
+        <div class="sk-circle10 sk-circle"></div>
+        <div class="sk-circle11 sk-circle"></div>
+        <div class="sk-circle12 sk-circle"></div>
+    </div>
+
+    <!--folding-cube-->
+    <div class="plus-spinner {{spinnerClass}}"
+         *ngIf="selectedSpinner == allowSpinner[10]"
+         [ngClass]="selectedSpinner">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+    </div>
+</div>

@@ -1,0 +1,25 @@
+# Node
+node_modules
+npm-debug.log
+
+# JetBrains
+.idea/
+
+# VS Code
+.vscode/
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Mac
+.DS_Store
+
+# Ignored files
+*.js
+*.map
+
+# Temporary files
+dist
+docs
+tmp

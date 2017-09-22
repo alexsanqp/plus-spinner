@@ -1,0 +1,37 @@
+{
+  "name": "plus-spinner",
+  "version": "1.0.0",
+  "description": "A spinner loading for Angular 4.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Kryhtenko",
+  "license": "ISC",
+  "typings": "index.ts",
+   "keywords": [
+    "angular 2",
+    "angular 4",
+    "logging",
+    "spinner",
+    "loading",
+    "loader",
+	"preloader",
+	"busy",
+    "wait",
+	"plus-spinner"
+  ],
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "@angular/common": "^4.0.0"
+  },
+  "devDependencies": {
+    "@angular/core": "^4.0.2",
+    "@angular/common": "^4.0.2",
+    "@angular/compiler": "^4.0.2",
+    "@angular/compiler-cli": "^4.0.2",
+    "typescript": "^2.2.2",
+    "webpack": "^2.4.1",
+    "zone.js": "^0.8.5"
+  }
+}
