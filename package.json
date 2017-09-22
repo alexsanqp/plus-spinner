@@ -1,6 +1,6 @@
 {
   "name": "plus-spinner",
-  "version": "2.0.0",
+  "version": "1.0.2",
   "description": "A spinner loading for Angular 4.x",
   "main": "index.js",
   "scripts": {
@@ -9,17 +9,20 @@
   "author": "Alexander Kryhtenko",
   "license": "ISC",
   "typings": "index.ts",
-   "keywords": [
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexsanqp/plus-spinner"
+  },
+  "keywords": [
     "angular 2",
     "angular 4",
-    "logging",
     "spinner",
     "loading",
     "loader",
-	"preloader",
-	"busy",
+    "preloader",
+    "busy",
     "wait",
-	"plus-spinner"
+    "plus-spinner"
   ],
   "peerDependencies": {
     "@angular/core": "^4.0.0",
