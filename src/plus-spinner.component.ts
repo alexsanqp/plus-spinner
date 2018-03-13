@@ -6,10 +6,10 @@ import {Component, OnInit, Input, OnDestroy, ElementRef} from '@angular/core';
     styleUrls: ['./plus-spinner.component.scss']
 })
 export class PlusSpinnerComponent implements OnInit, OnDestroy {
-    private currentTimeout: any;
-    private isDelayedRunning: boolean = false;
-    private selectedSpinner: string;
-    private allowSpinner: string[];
+    public currentTimeout: any;
+    public isDelayedRunning: boolean = false;
+    public selectedSpinner: string;
+    public allowSpinner: string[];
 
     @Input()
     public spinner: string;
